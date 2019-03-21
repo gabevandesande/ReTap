@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_title_text_size">20sp</dimen>
+    <dimen name="border_thickness">1dp</dimen>
+    <dimen name="light_divider_thickness">0.7dp</dimen>
+    <dimen name="divider_thickness">2dp</dimen>
+    <dimen name="small_spacing">4dp</dimen>
+    <dimen name="standard_spacing">10dp</dimen>
+    <dimen name="standard_padding">20dp</dimen>
+    <dimen name="large_padding">28dp</dimen>
+</resources>

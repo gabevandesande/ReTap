@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/label_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/navigation_bar"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="@dimen/large_padding"
+        android:layout_marginTop="@dimen/large_padding"
+        android:layout_toStartOf="@id/toggle_button"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_spacing"
+            android:text="@string/label_vibrate_notifications_title"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_vibrate_notifications_description"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/navigation_bar"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/large_padding"
+        android:layout_marginTop="@dimen/standard_padding" />
+
+</RelativeLayout>

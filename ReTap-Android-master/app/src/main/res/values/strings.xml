@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ReTap</string>
+    <string name="stop_label">stop</string>
+    <string name="inbox">Messages</string>
+    <string name="reminders">Reminders</string>
+    <string name="settings">Settings</string>
+    <string name="label_vibrate_notifications_title">Vibrate SMS Notifications</string>
+    <string name="label_vibrate_notifications_description">Incoming SMS notifications will vibrate in Morse code.</string>
+    <string name="dot">•</string>
+    <string name="dash">–</string>
+    <string name="compose">Compose</string>
+    <string name="add_reminder">Add a Reminder</string>
+    <string name="add_reminder_prompt">Reminders will be converted into Morse code.</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="reminders_prompt">Add a reminder here.</string>
+</resources>
